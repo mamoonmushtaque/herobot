@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e6e6ea, #cfd9df);
+  
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+  
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  border:10px;
+border-top:solid;
+  border-color:rgb(99, 13, 197);
+}
+
+/* Logo */
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  background: linear-gradient(135deg, #6a5acd, #00c9a7);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+}
+
+/* Text */
+.login-title {
+  margin-top: 10px;
+  color:rgb(114, 16, 180);
+}
+
+.subtitle {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  margin: 8px 0;
+  font-size: 14px;
+}
+.btn:hover{
+  background-color: #e6e6ea;
+}
+.image-icon{
+    width:22px;
+    height:22px;
+    margin-right:12px;
+    border-radius: 9px;
+}
+.google {
+  background: #f1f1f1;
+  font-size: 14px;
+}
+
+.github {
+  background: #f1f1f1;
+  font-size: 14px;
+}
+
+.primary {
+  background: linear-gradient(135deg, #6a5acd, #00c9a7);
+  color: white;
+  margin-top: 15px;
+}
+.primary:hover{
+  background: linear-gradient(135deg, #6c60b7, #3dd6bc);
+}
+/* Divider */
+.divider {
+  font-size: 12px;
+  color: gray;
+  margin: 15px 0;
+  position: relative;
+  position:inline;
+}
+.line{
+    position:inline;
+}
+
+/* Inputs */
+form {
+  text-align: left;
+}
+
+label {
+  font-size: 12px;
+  color: gray;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #f2f2f2;
+  margin: 8px 0 15px 0;
+}
+
+/* Password row */
+.password-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-row a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #6a5acd;
+}
+
+/* Signup */
+.signup {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.signup a {
+  color: #6a5acd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer Box */
+.footer-box {
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 11px;
+  background: #e8f5f3;
+  border-radius: 10px;
+  text-align: center;
+  color: #444;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+  .card {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
